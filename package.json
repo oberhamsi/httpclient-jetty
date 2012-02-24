@@ -1,0 +1,48 @@
+{
+    "name": "httpclient-jetty",
+    "version": "1.0",
+    "description": "jetty's scalable httpclient, usable synchronous & asynchronous",
+    "keywords": ["web"],
+    "homepage": "https://github.com/oberhamsi/httpclient-jetty/",
+    "author": {
+        "name": "Simon Oberhammer",
+        "email": "simon@nekapuzer.at"
+    },
+    "contributors": [
+      {
+        "name": "Hannes Wallnöfer",
+        "email": "hannesw@gmail.com"
+      },
+      {
+        "name": "Robert Thurnher",
+        "web": "http://robert42.com/",
+        "email": "r.thurnher@gmail.com>"
+      },
+      {
+        "name": "Hannes Wallnoefer",
+        "web": "http://hns.github.com/",
+        "email": "hannesw@gmail.com"
+      },
+      {
+         "name": "Tim Schaub"
+      },
+      {
+         "name": "Andreas Bolka"
+      }
+    ],
+    "dependencies": {
+    },
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/oberhamsi/httpclient-jetty.git"
+    }],
+    "bugs": "http://github.com/oberhamsi/httpclient-jetty/issues",
+    "licenses": [{
+        "type": "Apache License Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }],
+    "engines": {
+        "ringojs": ">= 0.8"
+    },
+    "main": "./lib/httpclient.js"
+}
